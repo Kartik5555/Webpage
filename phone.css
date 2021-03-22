@@ -1,0 +1,166 @@
+*{
+    background-color: black;
+}
+body{
+    width: 100%;
+}
+#navbar{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#logo {
+    display: block;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+.mid{
+    margin-left: 0px;
+}
+.navBar{
+    text-align: center;
+    justify-content: center;
+
+}
+.navBar li{
+    margin: 10px;
+    padding: 0px;
+}
+.navBar li a{
+    font-size: 15px;
+}
+.name h1{
+    font-size: 2rem;
+}
+.video{
+    right: 0px;
+
+}
+.name{
+    margin: 18px 10px;
+}
+.name h1{
+    letter-spacing: 3px;
+}
+.about{
+    margin: 30px;
+}
+.about p{
+    margin: 0px;
+    font-size: 1rem;
+    flex-wrap: wrap;
+}
+.about h3{
+    font-size: 2rem;
+    margin: 10px 30px ;
+}
+.images{
+    display: flex;
+}
+.images img{
+    height: 150px;
+    width: 120px;
+    margin: 20px 20px;
+    padding: 4px;
+}
+.images a{
+    font-size: 1rem;
+}
+.team{
+    padding-top: 20px;
+}
+#team-section{
+    font-size: 2rem;
+}
+.snr{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    margin-left: -46px;
+}
+.snr img{
+    height: 100px;
+    width: 100px;
+}
+.overlay {
+    bottom: 197.5px;
+    width: 70%;
+    font-size: 10px;
+    padding: 3px;
+    margin-left: 48px;
+}
+#noob{
+    bottom: 233.5px;
+}
+.overlay1 {
+    bottom: 20.5px;
+    width: 70%;
+    font-size: 10px;
+    padding: 3px;
+    margin-left: 48px;
+    font-size: 9px;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 150px;
+    /* margin-left: 25px; */
+    /* padding-left: 20px; */
+    padding-right: 7px;
+}
+.gmap_canvas {
+    height: 150px;
+    width: 150px;
+}
+.foot{
+    margin-top: -30px;
+    padding-top: 70px;
+}
+.form{
+    height: 250px;
+    width: 250px;
+    margin-top: 10px;
+}
+.map{
+    margin-left: -470px;   
+}
+.contact{
+    padding: 0px;
+}
+.form h4{
+    font-size: 1.3rem;
+    position: absolute;
+    /* bottom: -1090px; */
+    z-index: -3;
+}
+.form form{ 
+    position: absolute;
+}
+.to-mail{
+    padding-top: 10px;
+}
+.fa{
+    font-size: 3px;
+    padding: 7px;
+}
+.project h1{
+    font-size: 1.3rem;
+}
+.bot{
+    margin-top: 5px;
+}
+.senior{
+    height: 200px;
+}
+#op{
+    z-index: 5;
+}
+#op img{
+    margin-top: -155px;
+}
+.team h3{
+    z-index: 6;
+}
