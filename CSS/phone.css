@@ -1,9 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
-}
-.video video{
-    height: 1000px;
+    background-color: black
 }
 body{
     width: 100%;
