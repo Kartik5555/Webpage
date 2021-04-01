@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    background-color: black
+    background-color: black;
 }
 body{
     width: 100%;
@@ -125,6 +125,7 @@ body{
 }
 .contact{
     padding: 0px;
+    margin-top: 10px;
 }
 .form h4{
     font-size: 1.3rem;
