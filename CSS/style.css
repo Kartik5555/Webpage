@@ -1,0 +1,481 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    flex-wrap: wrap;
+    cursor: default;
+    box-sizing: border-box;
+}
+
+.head {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.video {
+    height: 100vh;
+    z-index: -1;
+    position: absolute;
+    right: 0px;
+    height: auto;
+}
+
+img {
+    background: transparent;
+    height: 110px;
+    width: 125px;
+    margin: 20px;
+}
+
+.mid {
+    margin-left: 100px;
+}
+
+.navBar {
+    display: flex;
+    margin: 10px;
+    padding: 3px;
+}
+
+.navBar li {
+    margin: 40px;
+    font-size: 25px;
+}
+
+.navBar li a {
+    text-decoration: none;
+    color: mediumturquoise;
+    font-weight: bold;
+    cursor: pointer;
+    text-shadow: 1px 1px 1px dodgerblue;
+}
+.navBar li a:hover{
+    text-decoration: underline;
+    color: gray;
+}
+
+#navbar {
+    display: flex;
+}
+.about{
+    color: white;
+    margin-top: 3%;
+    margin: 0% 10%;
+
+}
+.about h3{
+    margin: 30px;
+    font-size: 2.8rem;
+    text-align: center;
+    text-shadow: 2px 2px 2px blueviolet;
+}
+.about p{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: lighter;
+    margin: 20px;
+    text-shadow: 1px 1px 1px wheat;
+}
+@media screen and (max-width: 660px){
+    .about p{
+        font-size: 1rem;
+        margin: 0px;
+    }
+}
+.name {
+    margin: 60px 0px;
+    text-align: center;
+    width: 100%;
+}
+
+
+.name h1 {
+    color: white;
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Baloo Bhai 2', cursive;
+    letter-spacing: 16px;
+    text-shadow: 5px 5px 5px aquamarine;
+    font-weight: bolder;
+}
+
+hr {
+    border: 1px solid goldenrod;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px #E69A8DFF;
+    width: 100%;
+
+}
+.aim {
+    position: absolute;
+    margin-top: 10px;
+    color: white;
+}
+.aim p{
+    margin-right: 80px;
+}
+.aim h3{
+    margin-right: 100px;
+    text-decoration: underline;
+}
+.projects {
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    height: 100vh;
+    margin-top: 5%;
+    opacity: 0.95;
+}
+
+.projects h1 {
+    display: block;
+    text-align: center;
+    text-shadow: 2px 2px 3px bisque;
+    background-size: 400%;
+    font-weight: 600;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 3.5rem;
+    letter-spacing: 15px;
+    background: linear-gradient(155deg, #ff00ff, #00ff0f, #fff000, #ff000f, #0ff00f, #0ff0f0,  #ff00ff, #00ff0f, #fff000, #ff000f, #0ff00f, #0ff0f0);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: animate 10s linear infinite;
+    font-weight: bolder;
+    
+}
+@keyframes animate{
+    0%{
+        background-position: 0%;
+    }
+    50%{
+        background-position: 100%;
+    }
+    100%{
+        background-position: 400%;
+    }
+}
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    
+}
+
+/* Make the image to responsive */
+.senior {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+    position: absolute;
+    bottom: 13px;
+    background: rgba(0, 0, 0, 0.5);
+    /* Black see-through */
+    color: #f1f1f1;
+    width: 69%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 46px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container:hover .overlay {
+    opacity: 1;
+}
+.overlay1 {
+    position: absolute;
+    bottom: 14px;
+    background: rgba(0, 0, 0, 0.5);
+    /* Black see-through */
+    color: #f1f1f1;
+    width: 69%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 46px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container:hover .overlay1 {
+    opacity: 1;
+}
+
+.snr {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    padding-top: 50px;
+    
+}
+
+.snr img {
+    height: 200px;
+    width: 200px;
+    margin-left: 50px;
+    filter: blur(1.8px);
+}
+.snr img:hover{
+    filter: blur(0px);
+}
+
+.team {
+    padding-top: 100px;
+    background-color: black;
+    text-align: center;
+    font-size: 3.5rem;
+    color: darkviolet;
+    text-shadow: 2px 2px 2px aqua;
+}
+
+
+.images h3 a {
+    color: blanchedalmond;
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+
+.images h3 {
+    margin-top: -70px;
+    margin-left: 70px;
+}
+.tea {
+    margin-top: 40px;
+    background-color: black;
+    border: 1px solid goldenrod;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px #E69A8DFF;
+}
+.team h3{
+    margin-top: 100px;
+    letter-spacing: 10px;
+}
+#submit {
+    width: 60px;
+    background-color: gray;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: rgb(163, 162, 162);
+}
+
+#reset {
+    width: 60px;
+    background-color: gray;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#reset:hover {
+    background-color: rgb(163, 162, 162);
+}
+
+.submit {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.form h4 {
+    color: white;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+#name {
+    margin-top: 30px;
+    border-radius: 10px;
+    cursor: text;
+    height: 22px;
+    padding: 10px;
+}
+
+#email {
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: text;
+    height: 22px;
+    padding: 10px;
+}
+
+#message {
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 200px;
+    width: 200px;
+    cursor: text;
+    text-align: top;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 400px;
+    width: 400px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 400px;
+    width: 400px;
+}
+
+.foot {
+    padding-top: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.map {
+    margin-left: 30px;
+}
+
+.contact {
+    background-color: black;
+    padding-top: 100px;
+    font-size: 3rem;
+    color: darkred;
+    text-align: center;
+    text-shadow: 2px 2px 2px blueviolet;
+    letter-spacing: 10px;
+}
+.bot {
+    margin-top: -40px;
+}
+.social {
+    background-color: black;
+    text-align: center;
+}
+
+.to-mail {
+    background-color: black;
+    padding-top: 130px;
+    text-align: center;
+    font-size: 1.2rem;
+    
+}
+
+.to-mail span {
+    color: wheat;
+    text-decoration: underline;
+}
+
+.to-mail a {
+    text-decoration: none;
+    color: white;
+}
+
+.e1:hover {
+    font-size: 22px;
+    color: wheat;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    transition: 0.6s ease;
+    font-size: 15px;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+.copy{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    
+}
+.images img {
+    height: 350px;
+    width: 310px;
+    object-fit: cover;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    box-shadow: -10px 10px 15px rgb(184, 104, 184);
+    
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: black;
+    margin-top: 25px;
+}
+
+.ar {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-shadow: 2px 4px 2px darksalmon;
+}
+
+.ar a:hover {
+    color: rgb(150, 190, 190);
+}
+
+.images a {
+    color: blanchedalmond;
+    font-size: 1.8rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
