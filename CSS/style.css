@@ -5,6 +5,11 @@
     cursor: default;
     box-sizing: border-box;
 }
+@media screen and (max-width: 430px){
+    *{
+        background-color: black;
+    }
+}
 
 .head {
     height: 100%;
